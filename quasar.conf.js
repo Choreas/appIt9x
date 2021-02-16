@@ -37,7 +37,7 @@ module.exports = configure(function (ctx) {
     extras: [
       // 'ionicons-v4',
       // 'mdi-v5',
-      // 'fontawesome-v5',
+      'fontawesome-v5',
       // 'eva-icons',
       // 'themify',
       // 'line-awesome',
@@ -107,7 +107,9 @@ module.exports = configure(function (ctx) {
       // directives: [],
 
       // Quasar plugins
-      plugins: []
+      plugins: [
+        'Notify'
+      ]
     },
 
     // animations: 'all', // --- includes all animations
@@ -124,8 +126,8 @@ module.exports = configure(function (ctx) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'AppIt9x',
-        short_name: 'AppIt9x',
+        name: 'changeme',
+        short_name: 'changeme',
         description: 'Template for your android app',
         display: 'standalone',
         orientation: 'portrait',
@@ -191,7 +193,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'appit9x'
+        appId: 'changeme'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

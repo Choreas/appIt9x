@@ -1,4 +1,4 @@
-# AppIt9x (appit9x)
+# Cordova + Quasar Android App Template
 
 Template for your android app
 
@@ -17,3 +17,5 @@ Template for your android app
 2. Change directory to /src-cordova (command: cd src-cordova) and issue in terminal: npm install
 
 To run your code in emulator, issue: npm run serve
+
+To build your apk, issue npm run build.

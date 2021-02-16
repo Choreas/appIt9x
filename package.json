@@ -1,14 +1,15 @@
 {
-  "name": "appit9x",
+  "name": "com.changeme",
   "version": "0.0.1",
-  "description": "Template for your android app",
-  "productName": "AppIt9x",
-  "author": "Choreas <niklas.kosanke@web.de>",
+  "description": "null",
+  "productName": "changeme",
+  "author": "Choreas",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
-    "serve": "tsc --build tsconfig.json && quasar dev -m android --ide"
+    "serve": "tsc --build tsconfig.json && quasar dev -m android --ide",
+    "build": "tsc --build tsconfig.json && quasar build -m android --ide"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
